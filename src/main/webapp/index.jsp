@@ -11,6 +11,25 @@
   border-radius:5px;
   padding:25px;
   }
+  
+  /* Pagination links */
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
   </style>
 </head>
 <body>
@@ -100,33 +119,29 @@
   <a href="dropdown.jsp">Dropdown</a>
   <a href="info.jsp">Info</a>
   
-  <div class="btn-group">
-  <button type="button" class="btn btn-primary">Apple</button>
-  <button type="button" class="btn btn-primary">Samsung</button>
-  <button type="button" class="btn btn-primary">Sony</button>
-  <br>
-  
-  
-  
+ 
 
 </div>
 
 
 
-<ul class="pager">
-  <li class="previous"><a href="#">Previous</a></li>
-  <li class="next"><a href="#">Next</a></li>
-</ul>
  
 </div>
 
 <div class="container">
   <div class="jumbotron">
-    <h1>Bootstrap Jumbotron</h1>      
-    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-  </div>
-  <p>This is some text.</p>      
-  <p>This is another text.</p>      
+    <h3>pagination</h3>      
+     <div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a class="active" href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+
 </div>
 
 </body> 
