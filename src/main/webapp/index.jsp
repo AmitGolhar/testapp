@@ -97,9 +97,9 @@
     </div>
   </div>
   
-  <a href="dropdown.jsp"/>
+  <a href="dropdown.jsp">Dropdown</a>
+  <a href="info.jsp">Info</a>
   
- New text added
 </div>
 
 </body> 
