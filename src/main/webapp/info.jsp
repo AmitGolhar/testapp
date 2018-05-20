@@ -1,1 +1,1 @@
-information page
+<h2>information page</h2>
