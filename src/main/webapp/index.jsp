@@ -16,7 +16,7 @@
 <body>
 
 <div class="container">
-  <h2>Vertical   Form</h2>
+  <h2>User Login Form</h2>
   <form>
     <div class="form-group">
       <label for="email">Email:</label>
