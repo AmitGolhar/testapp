@@ -100,6 +100,12 @@
   <a href="dropdown.jsp">Dropdown</a>
   <a href="info.jsp">Info</a>
   
+  <div class="btn-group">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <button type="button" class="btn btn-primary">Sony</button>
+</div>
+
 </div>
 
 </body> 
